@@ -5,7 +5,7 @@ const Featured = () => {
         <>
             <div className='min-h-fit m-5 p-10 rounded-4xl bg-white '>
                 <h1 className='text-6xl font-bold text-center'>Explore!</h1>
-                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-10'>
+                <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-10'>
                     <div className='explore_card content-center'>
                         <h1 className='text-3xl text-center font-bold text-white'>Places</h1>
                     </div>
