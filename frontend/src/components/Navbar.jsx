@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <>
             <header class="my-5">
-                <div class="relative flex max-w-4xl flex-col px-4 py-4 border-2 border-white rounded-4xl navbar-shadow bg-radial from-zinc-800 from-20% to-zinc-900 md:mx-auto md:flex-row md:items-center">
+                <div class="relative flex max-w-4xl flex-col px-4 py-4 border-2 border-white rounded-4xl navbar-shadow md:mx-auto md:flex-row md:items-center">
                     <a href="#" class="flex items-center text-2xl font-black">
                         <span class="mr-2">
                             <img src={logo} alt="logo" className="w-40" />
