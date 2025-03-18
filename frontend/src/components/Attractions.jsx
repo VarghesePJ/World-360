@@ -9,8 +9,8 @@ const Attractions = () => {
     return (
         <>
             <div className='min-h-150 my-5 mx-10 p-10 rounded-4xl bg-white '>
-                <h2 className='text-6xl font-bold text-center mb-10'>Attractions</h2>
-                <p className='text-xl mt-5 text-center underline'>Explore Kerala’s backwaters, hills, beaches, and heritage!</p>
+                <h2 className='text-5xl font-bold text-center mb-10'>Attractions</h2>
+                <p className='text-xl mt-5 text-center underline'>Explore Kerala's backwaters, hills, beaches, and heritage!</p>
                 <div className="attract">
                     <div className='icontainer'>
                         <img src={NK} alt="image" />
