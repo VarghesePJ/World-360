@@ -8,9 +8,9 @@ import SK from '../assets/img/SK.jpg'
 const Attractions = () => {
     return (
         <>
-            <div className='min-h-150 my-5 mx-10 p-10 rounded-4xl bg-white '>
-                <h2 className='text-5xl font-bold text-center mb-10'>Attractions</h2>
-                <p className='text-xl mt-5 text-center underline'>Explore Kerala's backwaters, hills, beaches, and heritage!</p>
+            <div className='min-h-150 my-5 mx-5 md:mx-10 px-2 py-10 md:p-10 rounded-4xl bg-white '>
+                <h2 className='text-5xl md:text-6xl font-bold text-center'>Attractions</h2>
+                <p className='text-md md:text-xl mt-5 text-center'>Explore Kerala's backwaters, hills, beaches, and heritage!</p>
                 <div className="attract">
                     <div className='icontainer'>
                         <img src={NK} alt="image" />

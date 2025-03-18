@@ -3,9 +3,9 @@ import React from 'react'
 const Featured = () => {
     return (
         <>
-            <div className='min-h-fit my-5 mx-10 p-10 rounded-4xl bg-white '>
-                <h1 className='text-6xl font-bold text-center'>Explore!</h1>
-                <p className='text-xl mt-5 text-center underline'>Discover Kerala's beauty—lush greens, serene backwaters, and rich culture!</p>
+            <div className='min-h-fit my-5 mx-5 md:mx-10 px-2 py-10 md:p-10 rounded-4xl bg-white '>
+                <h1 className='text-5xl md:text-6xl font-bold text-center'>Explore!</h1>
+                <p className='text-md md:text-xl mt-5 text-center'>Discover Kerala's beauty—lush greens, serene backwaters, and rich culture!</p>
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-4 mt-10'>
                     <div className='explore_card md:col-span-3 content-center'>
                         <h1 className='text-3xl text-center font-bold text-white'>North Kerala</h1>
